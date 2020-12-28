@@ -1,0 +1,95 @@
+body {
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #ededef;
+    
+}
+.container {
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    width: 350px;
+    height: 570px;
+    background-color: white;
+    
+}
+.postHeader {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 0;
+    width: 350px;
+    height: 50px;
+   
+     
+
+}
+.textHeader p {
+    margin: 0;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.fa-html5 {
+    margin-left: 10px;
+    font-size: 25px;
+}
+.fa-ellipsis-v:before {
+    position: relative;
+    left: 250px;
+    font-size: 20px;
+}
+.postBody {
+    margin-top: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    
+}
+.postFooter {    
+    
+    position: absolute;
+    width: 350px;
+    height: 146px;
+    background-color: white;
+    margin-top: 353px;
+}
+.postBtn {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    
+}
+.fa-heart {
+    margin-left: 10px;
+    font-size: 25px;
+    
+}
+.fa-comment:before {
+    position: relative;
+    left: 5px;
+    font-size: 25px;
+    
+}
+.fa-paper-plane::before {
+    position: relative;
+    left: 10px;font-size: 25px;
+   
+}
+.fa-bookmark:before {
+    position: relative;
+    left: 235px;
+    font-size: 25px;
+    
+}
+.textFooter {
+    margin-left: 10px;
+    padding: 3px;
+    margin-right: 2px;
+    font-size: 14px;
+}
